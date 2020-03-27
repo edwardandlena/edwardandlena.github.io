@@ -1,0 +1,65 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.english {
+    float: left;
+    width: 45%;
+    padding: 15px;
+}
+
+.deutsch {
+    float: right;
+    width: 45%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .english {
+      width: 95%;
+  }
+
+  .deutsch {
+      width: 95%;
+  }
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+.navbar a:link, a:visited {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar a:hover {
+    background-color: #33ccff;
+}
+
+h1.english {
+    font-size: 28pt;
+    color: #CC2233;
+}
+
+h1.deutsch {
+    color: #FFCC00;
+}
