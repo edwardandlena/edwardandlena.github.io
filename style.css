@@ -55,6 +55,10 @@ body {
     background-color: #33ccff;
 }
 
+.navbar a.current {
+    background-color: #FFCC00;
+}
+
 h1.english {
     font-size: 28pt;
     color: #CC2233;
@@ -62,4 +66,8 @@ h1.english {
 
 h1.deutsch {
     color: #FFCC00;
+}
+
+a {
+    text-decoration: none;
 }

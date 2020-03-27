@@ -3,6 +3,19 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+$(function(){
+  $("#navbar").load("nav.html");
+});
+</script>
 </head>
 
 <body>
@@ -12,13 +25,7 @@
         <h1 class="deutsch">Lena und Edward heiraten</h1>
     </div>
 </div>
-<div class="navbar">
-    <a href="#">Us</a>
-    <a href="#">Pictures</a>
-    <a href="#">Ceremony</a>
-    <a href="#">Dinner</a>
-    <a href="#">RSVP</a>
-</div>
+<div class="navbar"> </div>
 <div class="row">
     <h2 class="english">Testing one two three</h2>
     <h2 class="deutsch">Versuchen ein zwei drei</h2>

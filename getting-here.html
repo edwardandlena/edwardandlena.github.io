@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+</head>
+
+<body>
+<div class="header">
+    <div class="row">
+        <h1 class="english">Lena and Edward are getting married</h1>
+        <h1 class="deutsch">Lena und Edward heiraten</h1>
+    </div>
+</div>
+<div class="navbar"></div>
+<script>
+    $(document).ready(function() {
+    $('.navbar').load('https://edwardandlena.github.io/nav.html');
+});
+</script>
+<div class="row">
+    <div class="english">
+    <h2>By sea</h2>
+    <p>The closest port of call to Santa Cruz is the
+    <a href="https://www.santacruzharbor.org/">Santa Cruz small craft
+    harbor</a>, located south of Santa Cruz in Monterey Bay. Please view
+    their website for information such as current channel soundings and visitor
+    berthing procedures.</p>
+    </div>
+    <div class="deutsch">
+    <h2>Mit dem Schiff</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="english">
+    <h2>By train</h2>
+    <p><a href="http://amtrak.com/">Amtrak</a> serves downtown Santa Cruz
+    (station code SCZ) by bus connection from the nearest train station, San
+    Jose Diridon (SJC). Amtrak routes that stop in San Jose include the Coast
+    Starlight (serving Seattle, Portland, and Los Angeles) and the Capitol
+    Corridor (Oakland, Berkeley, and Sacramento). You can buy a ticket directly
+    to Santa Cruz, and once you disembark from the train in San Jose, proceed
+    to the 17 Express bus stop.</p>
+    <p>Regional trains stopping at San Jose Diridon include the
+    <a href="http://caltrain.com">Caltrain</a> from San Francisco and the
+    peninsula, and the <a href="http://acerail.com">Altamont Corridor
+    Express</a> from Dublin/Pleasanton and Stockton.</p>
+    </div>
+    <div class="deutsch"><h2>Mit dem Zug</h2></div>
+</div>
+<div class="row">
+    <div class="english">
+    <h2>By bus</h2>
+    <p><a href="http://scmtd.com">Santa Cruz Metro</a> buses can get you into
+    town from all over Santa Cruz county. Route 17 runs between San Jose Diridon
+    and downtown Santa Cruz approximately once per hour, and requires exact
+    change of $7 to board.</p>
+    <p><a href="http://greyhound.com/">Greyhound</a> buses also come to downtown
+    Santa Cruz.</p>
+    </div>
+    <div class="deutsch"><h2>Mit dem Bus</h2></div>
+</div>
+<div class="row">
+    <div class="english">
+    <h2>By air</h2>
+    <p><a href="https://flysanjose.com/">Norman Y. Mineta San Jose International
+    Airport</a> (SJC) is the closest airport to Santa Cruz, about a 45-minute
+    drive, and is connected to San Jose Diridon via bus and light rail.
+    <a href="http://flysfo.com">San Francisco</a> (SFO) and
+    <a href="http://www.oaklandairport.com/">Oakland</a> (OAK) International
+    Airports are both a little more than an hour's drive, and are near Caltrain
+    and Amtrak Capitol Corridor stations, respectively.</p>
+    </div>
+</div>
+</body>
+
+</html>
