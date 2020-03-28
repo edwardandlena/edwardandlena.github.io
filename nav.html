@@ -1,3 +1,12 @@
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
 <a href="index.html">Home</a>
 <a href="us.html">Us</a>
 <a href="pictures.html">Pictures</a>
@@ -5,3 +14,4 @@
 <a href="dinner.html">Dinner</a>
 <a href="rsvp.html">RSVP</a>
 <a href="getting-here.html">Getting here</a>
+<a href="lodging.html">Lodging</a>
