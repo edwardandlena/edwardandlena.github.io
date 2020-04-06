@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.header {
+#header {
     text-align: center;
     padding: 20px;
 }
@@ -37,12 +37,12 @@ body {
   }
 }
 
-.navbar {
+#navbar {
     overflow: hidden;
     background-color: lightgrey;
 }
 
-.navbar a:link, a:visited {
+#navbar a:link, a:visited {
     float: left;
     display: block;
     text-align: center;
@@ -51,11 +51,11 @@ body {
     color: blue;
 }
 
-.navbar a:hover {
+#navbar a:hover {
     background-color: #33ccff;
 }
 
-.navbar a.current {
+#navbar a.current {
     background-color: #FFCC00;
 }
 
